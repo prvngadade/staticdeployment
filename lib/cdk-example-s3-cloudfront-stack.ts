@@ -16,7 +16,7 @@ export class InfraStack extends Stack {
     super(scope, id, props);
 
   // 1. Define the domain name by changing'stormit.link'.
-  const domainName = 'stormit.link';
+  const domainName = 'testmyaws.work.gd';
   const siteDomain = 'www' + '.' + domainName;
 
     // 1.1 Create a Route 53 hosted zone (optional - you will need to update the NS records).
